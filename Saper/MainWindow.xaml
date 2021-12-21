@@ -1,0 +1,131 @@
+﻿<Window x:Class="Saper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Saper"
+        mc:Ignorable="d"
+        Title="Сапер" Height="460" Width="388" ResizeMode="NoResize">
+    <Grid Background="#d0e3f7">
+        <Border   Background="#ddeeff" Margin="20,20,20,50">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="30" Color="LightGray" ShadowDepth="10"/>
+            </Border.Effect>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <ToggleButton Grid.Row="0" Grid.Column="0" Click="btn_1" x:Name="btn" Content=""/>
+                <ToggleButton Grid.Row="0" Grid.Column="1" Click="btn_2"/>
+                <ToggleButton Grid.Row="0" Grid.Column="2" Click="btn_3"/>
+                <ToggleButton Grid.Row="0" Grid.Column="3" Click="btn_4"/>
+                <ToggleButton Grid.Row="0" Grid.Column="4" Click="btn_5"/>
+                <ToggleButton Grid.Row="0" Grid.Column="5" Click="btn_6"/>
+                <ToggleButton Grid.Row="0" Grid.Column="6" Click="btn_7"/>
+                <ToggleButton Grid.Row="0" Grid.Column="7" Click="btn_8"/>
+                <ToggleButton Grid.Row="0" Grid.Column="8" Click="btn_9"/>
+                <ToggleButton Grid.Row="1" Grid.Column="0" Click="btn_10"/>
+                <ToggleButton Grid.Row="1" Grid.Column="1" Click="btn_11"/>
+                <ToggleButton Grid.Row="1" Grid.Column="2" Click="btn_12"/>
+                <ToggleButton Grid.Row="1" Grid.Column="3" Click="btn_13"/>
+                <ToggleButton Grid.Row="1" Grid.Column="4" Click="btn_14"/>
+                <ToggleButton Grid.Row="1" Grid.Column="5" Click="btn_15"/>
+                <ToggleButton Grid.Row="1" Grid.Column="6" Click="btn_16"/>
+                <ToggleButton Grid.Row="1" Grid.Column="7" Click="btn_17"/>
+                <ToggleButton Grid.Row="1" Grid.Column="8" Click="btn_18"/>
+                <ToggleButton Grid.Row="2" Grid.Column="0" Click="btn_19"/>
+                <ToggleButton Grid.Row="2" Grid.Column="1" Click="btn_20"/>
+                <ToggleButton Grid.Row="2" Grid.Column="2" Click="btn_21"/>
+                <ToggleButton Grid.Row="2" Grid.Column="3" Click="btn_22"/>
+                <ToggleButton Grid.Row="2" Grid.Column="4" Click="btn_23"/>
+                <ToggleButton Grid.Row="2" Grid.Column="5" Click="btn_24"/>
+                <ToggleButton Grid.Row="2" Grid.Column="6" Click="btn_25"/>
+                <ToggleButton Grid.Row="2" Grid.Column="7" Click="btn_26"/>
+                <ToggleButton Grid.Row="2" Grid.Column="8" Click="btn_27"/>
+                <ToggleButton Grid.Row="3" Grid.Column="0" Click="btn_28"/>
+                <ToggleButton Grid.Row="3" Grid.Column="1" Click="btn_29"/>
+                <ToggleButton Grid.Row="3" Grid.Column="2" Click="btn_30"/>
+                <ToggleButton Grid.Row="3" Grid.Column="3" Click="btn_31"/>
+                <ToggleButton Grid.Row="3" Grid.Column="4" Click="btn_32"/>
+                <ToggleButton Grid.Row="3" Grid.Column="5" Click="btn_33"/>
+                <ToggleButton Grid.Row="3" Grid.Column="6" Click="btn_34"/>
+                <ToggleButton Grid.Row="3" Grid.Column="7" Click="btn_35"/>
+                <ToggleButton Grid.Row="3" Grid.Column="8" Click="btn_36"/>
+                <ToggleButton Grid.Row="4" Grid.Column="0" Click="btn_37"/>
+                <ToggleButton Grid.Row="4" Grid.Column="1" Click="btn_38"/>
+                <ToggleButton Grid.Row="4" Grid.Column="2" Click="btn_39"/>
+                <ToggleButton Grid.Row="4" Grid.Column="3" Click="btn_40"/>
+                <ToggleButton Grid.Row="4" Grid.Column="4" Click="btn_41"/>
+                <ToggleButton Grid.Row="4" Grid.Column="5" Click="btn_42"/>
+                <ToggleButton Grid.Row="4" Grid.Column="6" Click="btn_43"/>
+                <ToggleButton Grid.Row="4" Grid.Column="7" Click="btn_44"/>
+                <ToggleButton Grid.Row="4" Grid.Column="8" Click="btn_45"/>
+                <ToggleButton Grid.Row="5" Grid.Column="0" Click="btn_46"/>
+                <ToggleButton Grid.Row="5" Grid.Column="1" Click="btn_47"/>
+                <ToggleButton Grid.Row="5" Grid.Column="2" Click="btn_48"/>
+                <ToggleButton Grid.Row="5" Grid.Column="3" Click="btn_49"/>
+                <ToggleButton Grid.Row="5" Grid.Column="4" Click="btn_50"/>
+                <ToggleButton Grid.Row="5" Grid.Column="5" Click="btn_51"/>
+                <ToggleButton Grid.Row="5" Grid.Column="6" Click="btn_52"/>
+                <ToggleButton Grid.Row="5" Grid.Column="7" Click="btn_53"/>
+                <ToggleButton Grid.Row="5" Grid.Column="8" Click="btn_54"/>
+                <ToggleButton Grid.Row="6" Grid.Column="0" Click="btn_55"/>
+                <ToggleButton Grid.Row="6" Grid.Column="1" Click="btn_56"/>
+                <ToggleButton Grid.Row="6" Grid.Column="2" Click="btn_57"/>
+                <ToggleButton Grid.Row="6" Grid.Column="3" Click="btn_58"/>
+                <ToggleButton Grid.Row="6" Grid.Column="4" Click="btn_59"/>
+                <ToggleButton Grid.Row="6" Grid.Column="5" Click="btn_60"/>
+                <ToggleButton Grid.Row="6" Grid.Column="6" Click="btn_61"/>
+                <ToggleButton Grid.Row="6" Grid.Column="7" Click="btn_62"/>
+                <ToggleButton Grid.Row="6" Grid.Column="8" Click="btn_63"/>
+                <ToggleButton Grid.Row="7" Grid.Column="0" Click="btn_64"/>
+                <ToggleButton Grid.Row="7" Grid.Column="1" Click="btn_65"/>
+                <ToggleButton Grid.Row="7" Grid.Column="2" Click="btn_66"/>
+                <ToggleButton Grid.Row="7" Grid.Column="3" Click="btn_67"/>
+                <ToggleButton Grid.Row="7" Grid.Column="4" Click="btn_68"/>
+                <ToggleButton Grid.Row="7" Grid.Column="5" Click="btn_69"/>
+                <ToggleButton Grid.Row="7" Grid.Column="6" Click="btn_70"/>
+                <ToggleButton Grid.Row="7" Grid.Column="7" Click="btn_71"/>
+                <ToggleButton Grid.Row="7" Grid.Column="8" Click="btn_72"/>
+                <ToggleButton Grid.Row="8" Grid.Column="0" Click="btn_73"/>
+                <ToggleButton Grid.Row="8" Grid.Column="1" Click="btn_74"/>
+                <ToggleButton Grid.Row="8" Grid.Column="2" Click="btn_75"/>
+                <ToggleButton Grid.Row="8" Grid.Column="3" Click="btn_76"/>
+                <ToggleButton Grid.Row="8" Grid.Column="4" Click="btn_77"/>
+                <ToggleButton Grid.Row="8" Grid.Column="5" Click="btn_78"/>
+                <ToggleButton Grid.Row="8" Grid.Column="6" Click="btn_79"/>
+                <ToggleButton Grid.Row="8" Grid.Column="7" Click="btn_80"/>
+                <ToggleButton Grid.Row="8" Grid.Column="8" Click="btn_81"/>
+
+               
+            </Grid>
+        </Border>
+        <Image Margin="0 360 300 0" Source="C:\Users\shher\OneDrive\Рабочий стол\Фотошоп\clock.png"/>
+        <Image Margin="300 370 0 0" Source="C:\Users\shher\OneDrive\Рабочий стол\Фотошоп\mina.png"/>
+        <Border Margin="90 380 250 10" Background="Blue">
+            <TextBlock Text="53" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="24"/>
+        </Border>
+        <Border Margin="250 380 100 10" Background="Blue">
+            <TextBlock Text="0" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="24"/>
+        </Border>
+    </Grid>
+</Window>
